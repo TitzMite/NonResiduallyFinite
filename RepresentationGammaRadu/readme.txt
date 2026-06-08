@@ -1,5 +1,5 @@
 
-We provive methods to Hensel lift a representation to PSL(2,13).
+We provive methods to Hensel lift a representation to SL(2,13).
 
 Using a lift of high precision we guess for traces and successfully
 compute a representation to SL(2, K), where K is the field Q(sqrt(-15), sqrt(17)).
