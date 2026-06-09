@@ -1,0 +1,2073 @@
+gap> Read("00_main.g");
+─────────────────────────────────────────────────────────────────────────────
+Loading GRAPE 4.9.0 (GRaph Algorithms using PErmutation groups)
+by Leonard H. Soicher (https://webspace.maths.qmul.ac.uk/l.h.soicher/).
+Homepage: https://gap-packages.github.io/grape
+Report issues at https://github.com/gap-packages/grape/issues
+─────────────────────────────────────────────────────────────────────────────
+#I  Assigned the global variables [ e1, e2, e3, e4, e5, e6, e7, f1, f2, f3, f4, f5, f6, f7, g1, g2, g3, g4, g5, g6, g7 ]
+gap> VerifyClaims();
+starting verification at  9-Jun-2026,  7:57:16.000 UTC
+
+
+----------------------------------------
+
+Verifying (1):
+
+Delta 1:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 2:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 3:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 4:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 5:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 6:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 7:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 8:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 9:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 10:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 11:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 12:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+Delta 13:
+Link number 1 in the local geometry (1,2) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (2,3) has
+order 14, girth 6 and diameter 3.
+
+Link number 1 in the local geometry (3,1) has
+order 14, girth 6 and diameter 3.
+
+
+
+----------------------------------------
+
+Verifying (2):
+
+Calculating this score is more expensive...
+Every type-preserving vertex-regular action arises from one of the 13 GABs.
+
+
+
+----------------------------------------
+
+Verifying (3):
+
+Delta 1:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C3 x (C7 : C3).
+We have 2 generators.
+Generator 1 has order 3.
+Generator 2 has order 21.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of generator 2 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e1
+e2 is mapped to e7
+e3 is mapped to e6
+e4 is mapped to e3
+e5 is mapped to e2
+e6 is mapped to e4
+e7 is mapped to e5
+f1 is mapped to f4
+f2 is mapped to f1
+f3 is mapped to f5
+f4 is mapped to f2
+f5 is mapped to f6
+f6 is mapped to f3
+f7 is mapped to f7
+g1 is mapped to g2
+g2 is mapped to g3
+g3 is mapped to g1
+g4 is mapped to g5
+g5 is mapped to g7
+g6 is mapped to g6
+g7 is mapped to g4
+
+Action of generator 2 on edges:
+e1 is mapped to g3
+e2 is mapped to g1
+e3 is mapped to g2
+e4 is mapped to g7
+e5 is mapped to g4
+e6 is mapped to g6
+e7 is mapped to g5
+f1 is mapped to e1
+f2 is mapped to e5
+f3 is mapped to e4
+f4 is mapped to e6
+f5 is mapped to e7
+f6 is mapped to e3
+f7 is mapped to e2
+g1 is mapped to f2
+g2 is mapped to f4
+g3 is mapped to f6
+g4 is mapped to f1
+g5 is mapped to f3
+g6 is mapped to f5
+g7 is mapped to f7
+
+Delta 2:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is S3.
+We have 2 generators.
+Generator 1 has order 2.
+Generator 2 has order 3.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to w1
+v1 is mapped to v1
+w1 is mapped to u1
+
+Action of generator 2 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e5
+e2 is mapped to e6
+e3 is mapped to e3
+e4 is mapped to e7
+e5 is mapped to e1
+e6 is mapped to e2
+e7 is mapped to e4
+f1 is mapped to g7
+f2 is mapped to g3
+f3 is mapped to g4
+f4 is mapped to g5
+f5 is mapped to g2
+f6 is mapped to g1
+f7 is mapped to g6
+g1 is mapped to f6
+g2 is mapped to f5
+g3 is mapped to f2
+g4 is mapped to f3
+g5 is mapped to f4
+g6 is mapped to f7
+g7 is mapped to f1
+
+Action of generator 2 on edges:
+e1 is mapped to g1
+e2 is mapped to g6
+e3 is mapped to g7
+e4 is mapped to g2
+e5 is mapped to g3
+e6 is mapped to g4
+e7 is mapped to g5
+f1 is mapped to e3
+f2 is mapped to e1
+f3 is mapped to e2
+f4 is mapped to e4
+f5 is mapped to e7
+f6 is mapped to e5
+f7 is mapped to e6
+g1 is mapped to f2
+g2 is mapped to f4
+g3 is mapped to f6
+g4 is mapped to f7
+g5 is mapped to f5
+g6 is mapped to f3
+g7 is mapped to f1
+
+Delta 3:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C7 : C6.
+We have 2 generators.
+Generator 1 has order 7.
+Generator 2 has order 6.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of generator 2 on vertices:
+u1 is mapped to u1
+v1 is mapped to w1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e6
+e2 is mapped to e4
+e3 is mapped to e2
+e4 is mapped to e1
+e5 is mapped to e7
+e6 is mapped to e5
+e7 is mapped to e3
+f1 is mapped to f4
+f2 is mapped to f3
+f3 is mapped to f7
+f4 is mapped to f2
+f5 is mapped to f6
+f6 is mapped to f1
+f7 is mapped to f5
+g1 is mapped to g4
+g2 is mapped to g3
+g3 is mapped to g7
+g4 is mapped to g2
+g5 is mapped to g6
+g6 is mapped to g1
+g7 is mapped to g5
+
+Action of generator 2 on edges:
+e1 is mapped to f7
+e2 is mapped to f5
+e3 is mapped to f2
+e4 is mapped to f4
+e5 is mapped to f3
+e6 is mapped to f1
+e7 is mapped to f6
+f1 is mapped to e5
+f2 is mapped to e6
+f3 is mapped to e3
+f4 is mapped to e2
+f5 is mapped to e7
+f6 is mapped to e4
+f7 is mapped to e1
+g1 is mapped to g6
+g2 is mapped to g5
+g3 is mapped to g4
+g4 is mapped to g2
+g5 is mapped to g1
+g6 is mapped to g3
+g7 is mapped to g7
+
+Delta 4:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is (C3 x C3) : C2.
+We have 3 generators.
+Generator 1 has order 2.
+Generator 2 has order 3.
+Generator 3 has order 3.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to w1
+v1 is mapped to v1
+w1 is mapped to u1
+
+Action of generator 2 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+Action of generator 3 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e1
+e2 is mapped to e2
+e3 is mapped to e7
+e4 is mapped to e6
+e5 is mapped to e5
+e6 is mapped to e4
+e7 is mapped to e3
+f1 is mapped to g1
+f2 is mapped to g3
+f3 is mapped to g2
+f4 is mapped to g5
+f5 is mapped to g6
+f6 is mapped to g7
+f7 is mapped to g4
+g1 is mapped to f1
+g2 is mapped to f3
+g3 is mapped to f2
+g4 is mapped to f7
+g5 is mapped to f4
+g6 is mapped to f5
+g7 is mapped to f6
+
+Action of generator 2 on edges:
+e1 is mapped to g5
+e2 is mapped to g1
+e3 is mapped to g4
+e4 is mapped to g2
+e5 is mapped to g7
+e6 is mapped to g3
+e7 is mapped to g6
+f1 is mapped to e2
+f2 is mapped to e4
+f3 is mapped to e6
+f4 is mapped to e1
+f5 is mapped to e3
+f6 is mapped to e5
+f7 is mapped to e7
+g1 is mapped to f1
+g2 is mapped to f2
+g3 is mapped to f3
+g4 is mapped to f5
+g5 is mapped to f4
+g6 is mapped to f7
+g7 is mapped to f6
+
+Action of generator 3 on edges:
+e1 is mapped to g5
+e2 is mapped to g3
+e3 is mapped to g6
+e4 is mapped to g1
+e5 is mapped to g4
+e6 is mapped to g2
+e7 is mapped to g7
+f1 is mapped to e6
+f2 is mapped to e2
+f3 is mapped to e4
+f4 is mapped to e1
+f5 is mapped to e7
+f6 is mapped to e3
+f7 is mapped to e5
+g1 is mapped to f3
+g2 is mapped to f1
+g3 is mapped to f2
+g4 is mapped to f7
+g5 is mapped to f4
+g6 is mapped to f6
+g7 is mapped to f5
+
+Delta 5:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is S3.
+We have 2 generators.
+Generator 1 has order 2.
+Generator 2 has order 3.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to w1
+v1 is mapped to v1
+w1 is mapped to u1
+
+Action of generator 2 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e6
+e2 is mapped to e2
+e3 is mapped to e7
+e4 is mapped to e4
+e5 is mapped to e5
+e6 is mapped to e1
+e7 is mapped to e3
+f1 is mapped to g5
+f2 is mapped to g7
+f3 is mapped to g2
+f4 is mapped to g1
+f5 is mapped to g6
+f6 is mapped to g3
+f7 is mapped to g4
+g1 is mapped to f4
+g2 is mapped to f3
+g3 is mapped to f6
+g4 is mapped to f7
+g5 is mapped to f1
+g6 is mapped to f5
+g7 is mapped to f2
+
+Action of generator 2 on edges:
+e1 is mapped to g6
+e2 is mapped to g3
+e3 is mapped to g5
+e4 is mapped to g2
+e5 is mapped to g4
+e6 is mapped to g1
+e7 is mapped to g7
+f1 is mapped to e7
+f2 is mapped to e3
+f3 is mapped to e4
+f4 is mapped to e1
+f5 is mapped to e6
+f6 is mapped to e2
+f7 is mapped to e5
+g1 is mapped to f5
+g2 is mapped to f3
+g3 is mapped to f6
+g4 is mapped to f7
+g5 is mapped to f2
+g6 is mapped to f4
+g7 is mapped to f1
+
+Delta 6:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is S3.
+We have 2 generators.
+Generator 1 has order 3.
+Generator 2 has order 2.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of generator 2 on vertices:
+u1 is mapped to v1
+v1 is mapped to u1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e2
+e2 is mapped to e3
+e3 is mapped to e1
+e4 is mapped to e4
+e5 is mapped to e6
+e6 is mapped to e7
+e7 is mapped to e5
+f1 is mapped to f1
+f2 is mapped to f4
+f3 is mapped to f5
+f4 is mapped to f6
+f5 is mapped to f7
+f6 is mapped to f2
+f7 is mapped to f3
+g1 is mapped to g4
+g2 is mapped to g1
+g3 is mapped to g5
+g4 is mapped to g2
+g5 is mapped to g6
+g6 is mapped to g3
+g7 is mapped to g7
+
+Action of generator 2 on edges:
+e1 is mapped to g1
+e2 is mapped to g2
+e3 is mapped to g4
+e4 is mapped to g7
+e5 is mapped to g6
+e6 is mapped to g5
+e7 is mapped to g3
+f1 is mapped to f1
+f2 is mapped to f2
+f3 is mapped to f3
+f4 is mapped to f6
+f5 is mapped to f7
+f6 is mapped to f4
+f7 is mapped to f5
+g1 is mapped to e1
+g2 is mapped to e2
+g3 is mapped to e7
+g4 is mapped to e3
+g5 is mapped to e6
+g6 is mapped to e5
+g7 is mapped to e4
+
+Delta 7:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C2.
+We have 1 generators.
+Generator 1 has order 2.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to w1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to f7
+e2 is mapped to f3
+e3 is mapped to f5
+e4 is mapped to f6
+e5 is mapped to f2
+e6 is mapped to f4
+e7 is mapped to f1
+f1 is mapped to e7
+f2 is mapped to e5
+f3 is mapped to e2
+f4 is mapped to e6
+f5 is mapped to e3
+f6 is mapped to e4
+f7 is mapped to e1
+g1 is mapped to g1
+g2 is mapped to g3
+g3 is mapped to g2
+g4 is mapped to g6
+g5 is mapped to g5
+g6 is mapped to g4
+g7 is mapped to g7
+
+Delta 8:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is S3.
+We have 2 generators.
+Generator 1 has order 3.
+Generator 2 has order 2.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of generator 2 on vertices:
+u1 is mapped to u1
+v1 is mapped to w1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e4
+e2 is mapped to e7
+e3 is mapped to e3
+e4 is mapped to e5
+e5 is mapped to e1
+e6 is mapped to e2
+e7 is mapped to e6
+f1 is mapped to f4
+f2 is mapped to f2
+f3 is mapped to f6
+f4 is mapped to f5
+f5 is mapped to f1
+f6 is mapped to f7
+f7 is mapped to f3
+g1 is mapped to g4
+g2 is mapped to g2
+g3 is mapped to g6
+g4 is mapped to g5
+g5 is mapped to g1
+g6 is mapped to g7
+g7 is mapped to g3
+
+Action of generator 2 on edges:
+e1 is mapped to f1
+e2 is mapped to f7
+e3 is mapped to f2
+e4 is mapped to f5
+e5 is mapped to f4
+e6 is mapped to f3
+e7 is mapped to f6
+f1 is mapped to e1
+f2 is mapped to e3
+f3 is mapped to e6
+f4 is mapped to e5
+f5 is mapped to e4
+f6 is mapped to e7
+f7 is mapped to e2
+g1 is mapped to g1
+g2 is mapped to g2
+g3 is mapped to g3
+g4 is mapped to g5
+g5 is mapped to g4
+g6 is mapped to g7
+g7 is mapped to g6
+
+Delta 9:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is S3.
+We have 2 generators.
+Generator 1 has order 3.
+Generator 2 has order 2.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of generator 2 on vertices:
+u1 is mapped to u1
+v1 is mapped to w1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e1
+e2 is mapped to e5
+e3 is mapped to e4
+e4 is mapped to e6
+e5 is mapped to e7
+e6 is mapped to e3
+e7 is mapped to e2
+f1 is mapped to f1
+f2 is mapped to f4
+f3 is mapped to f5
+f4 is mapped to f7
+f5 is mapped to f6
+f6 is mapped to f3
+f7 is mapped to f2
+g1 is mapped to g2
+g2 is mapped to g3
+g3 is mapped to g1
+g4 is mapped to g5
+g5 is mapped to g7
+g6 is mapped to g6
+g7 is mapped to g4
+
+Action of generator 2 on edges:
+e1 is mapped to f1
+e2 is mapped to f2
+e3 is mapped to f3
+e4 is mapped to f6
+e5 is mapped to f7
+e6 is mapped to f5
+e7 is mapped to f4
+f1 is mapped to e1
+f2 is mapped to e2
+f3 is mapped to e3
+f4 is mapped to e7
+f5 is mapped to e6
+f6 is mapped to e4
+f7 is mapped to e5
+g1 is mapped to g1
+g2 is mapped to g3
+g3 is mapped to g2
+g4 is mapped to g4
+g5 is mapped to g7
+g6 is mapped to g6
+g7 is mapped to g5
+
+Delta 10:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C3.
+We have 1 generators.
+Generator 1 has order 3.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e2
+e2 is mapped to e3
+e3 is mapped to e1
+e4 is mapped to e5
+e5 is mapped to e7
+e6 is mapped to e6
+e7 is mapped to e4
+f1 is mapped to f2
+f2 is mapped to f3
+f3 is mapped to f1
+f4 is mapped to f7
+f5 is mapped to f5
+f6 is mapped to f4
+f7 is mapped to f6
+g1 is mapped to g1
+g2 is mapped to g4
+g3 is mapped to g5
+g4 is mapped to g7
+g5 is mapped to g6
+g6 is mapped to g3
+g7 is mapped to g2
+
+Delta 11:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C6.
+We have 1 generators.
+Generator 1 has order 6.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to w1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to f4
+e2 is mapped to f2
+e3 is mapped to f5
+e4 is mapped to f3
+e5 is mapped to f6
+e6 is mapped to f1
+e7 is mapped to f7
+f1 is mapped to e4
+f2 is mapped to e6
+f3 is mapped to e2
+f4 is mapped to e1
+f5 is mapped to e7
+f6 is mapped to e3
+f7 is mapped to e5
+g1 is mapped to g1
+g2 is mapped to g5
+g3 is mapped to g4
+g4 is mapped to g6
+g5 is mapped to g7
+g6 is mapped to g2
+g7 is mapped to g3
+
+Delta 12:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C3.
+We have 1 generators.
+Generator 1 has order 3.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e1
+e2 is mapped to e4
+e3 is mapped to e5
+e4 is mapped to e6
+e5 is mapped to e7
+e6 is mapped to e2
+e7 is mapped to e3
+f1 is mapped to f4
+f2 is mapped to f1
+f3 is mapped to f5
+f4 is mapped to f2
+f5 is mapped to f6
+f6 is mapped to f3
+f7 is mapped to f7
+g1 is mapped to g2
+g2 is mapped to g3
+g3 is mapped to g1
+g4 is mapped to g6
+g5 is mapped to g4
+g6 is mapped to g5
+g7 is mapped to g7
+
+Delta 13:
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C3.
+We have 1 generators.
+Generator 1 has order 3.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e2
+e2 is mapped to e7
+e3 is mapped to e5
+e4 is mapped to e4
+e5 is mapped to e6
+e6 is mapped to e3
+e7 is mapped to e1
+f1 is mapped to f7
+f2 is mapped to f3
+f3 is mapped to f4
+f4 is mapped to f2
+f5 is mapped to f5
+f6 is mapped to f1
+f7 is mapped to f6
+g1 is mapped to g5
+g2 is mapped to g4
+g3 is mapped to g1
+g4 is mapped to g6
+g5 is mapped to g3
+g6 is mapped to g2
+g7 is mapped to g7
+
+
+
+----------------------------------------
+
+Verifying (4):
+
+complex 1:
+We now describe extensions to type rotating lattices:
+
+There is an extension isomorphic to the triangle presentation A1 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to g6
+e2 is mapped to g3
+e3 is mapped to g5
+e4 is mapped to g4
+e5 is mapped to g2
+e6 is mapped to g7
+e7 is mapped to g1
+f1 is mapped to e6
+f2 is mapped to e3
+f3 is mapped to e5
+f4 is mapped to e4
+f5 is mapped to e2
+f6 is mapped to e7
+f7 is mapped to e1
+g1 is mapped to f6
+g2 is mapped to f3
+g3 is mapped to f5
+g4 is mapped to f4
+g5 is mapped to f2
+g6 is mapped to f7
+g7 is mapped to f1
+
+There is an extension isomorphic to the triangle presentation A3 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to g1
+e2 is mapped to g2
+e3 is mapped to g3
+e4 is mapped to g4
+e5 is mapped to g5
+e6 is mapped to g6
+e7 is mapped to g7
+f1 is mapped to e1
+f2 is mapped to e2
+f3 is mapped to e3
+f4 is mapped to e4
+f5 is mapped to e5
+f6 is mapped to e6
+f7 is mapped to e7
+g1 is mapped to f1
+g2 is mapped to f2
+g3 is mapped to f3
+g4 is mapped to f4
+g5 is mapped to f5
+g6 is mapped to f6
+g7 is mapped to f7
+
+There is an extension isomorphic to the triangle presentation A2 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to g2
+e2 is mapped to g3
+e3 is mapped to g1
+e4 is mapped to g5
+e5 is mapped to g7
+e6 is mapped to g6
+e7 is mapped to g4
+f1 is mapped to e1
+f2 is mapped to e7
+f3 is mapped to e6
+f4 is mapped to e3
+f5 is mapped to e2
+f6 is mapped to e4
+f7 is mapped to e5
+g1 is mapped to f4
+g2 is mapped to f1
+g3 is mapped to f5
+g4 is mapped to f2
+g5 is mapped to f6
+g6 is mapped to f3
+g7 is mapped to f7
+
+We now describe Singer extensions to panel-regular lattices:
+
+We have the following extension:
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 7.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to e6
+e2 is mapped to e1
+e3 is mapped to e7
+e4 is mapped to e5
+e5 is mapped to e3
+e6 is mapped to e4
+e7 is mapped to e2
+f1 is mapped to f4
+f2 is mapped to f6
+f3 is mapped to f2
+f4 is mapped to f3
+f5 is mapped to f7
+f6 is mapped to f5
+f7 is mapped to f1
+g1 is mapped to g3
+g2 is mapped to g5
+g3 is mapped to g6
+g4 is mapped to g2
+g5 is mapped to g1
+g6 is mapped to g7
+g7 is mapped to g4
+
+
+We now describe chamber-regular extensions:
+
+We have the following extension:
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 2 automorphisms.
+Automorphism 1 has order 3.
+Automorphism 2 has order 7.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of automorphism 2 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to e1
+e2 is mapped to e7
+e3 is mapped to e6
+e4 is mapped to e3
+e5 is mapped to e2
+e6 is mapped to e4
+e7 is mapped to e5
+f1 is mapped to f4
+f2 is mapped to f1
+f3 is mapped to f5
+f4 is mapped to f2
+f5 is mapped to f6
+f6 is mapped to f3
+f7 is mapped to f7
+g1 is mapped to g2
+g2 is mapped to g3
+g3 is mapped to g1
+g4 is mapped to g5
+g5 is mapped to g7
+g6 is mapped to g6
+g7 is mapped to g4
+
+Action of automorphism 2 on edges:
+e1 is mapped to e6
+e2 is mapped to e1
+e3 is mapped to e7
+e4 is mapped to e5
+e5 is mapped to e3
+e6 is mapped to e4
+e7 is mapped to e2
+f1 is mapped to f4
+f2 is mapped to f6
+f3 is mapped to f2
+f4 is mapped to f3
+f5 is mapped to f7
+f6 is mapped to f5
+f7 is mapped to f1
+g1 is mapped to g3
+g2 is mapped to g5
+g3 is mapped to g6
+g4 is mapped to g2
+g5 is mapped to g1
+g6 is mapped to g7
+g7 is mapped to g4
+
+-----------------------------
+
+complex 2:
+We now describe extensions to type rotating lattices:
+
+There is an extension isomorphic to the triangle presentation A4 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to v1
+v1 is mapped to w1
+w1 is mapped to u1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to f2
+e2 is mapped to f3
+e3 is mapped to f1
+e4 is mapped to f4
+e5 is mapped to f6
+e6 is mapped to f7
+e7 is mapped to f5
+f1 is mapped to g7
+f2 is mapped to g1
+f3 is mapped to g6
+f4 is mapped to g2
+f5 is mapped to g5
+f6 is mapped to g3
+f7 is mapped to g4
+g1 is mapped to e1
+g2 is mapped to e4
+g3 is mapped to e5
+g4 is mapped to e6
+g5 is mapped to e7
+g6 is mapped to e2
+g7 is mapped to e3
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 3:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+We have the following extension:
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 7.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to e6
+e2 is mapped to e4
+e3 is mapped to e2
+e4 is mapped to e1
+e5 is mapped to e7
+e6 is mapped to e5
+e7 is mapped to e3
+f1 is mapped to f4
+f2 is mapped to f3
+f3 is mapped to f7
+f4 is mapped to f2
+f5 is mapped to f6
+f6 is mapped to f1
+f7 is mapped to f5
+g1 is mapped to g4
+g2 is mapped to g3
+g3 is mapped to g7
+g4 is mapped to g2
+g5 is mapped to g6
+g6 is mapped to g1
+g7 is mapped to g5
+
+
+We now describe chamber-regular extensions:
+
+We have the following extension:
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 2 automorphisms.
+Automorphism 1 has order 3.
+Automorphism 2 has order 7.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of automorphism 2 on vertices:
+u1 is mapped to u1
+v1 is mapped to v1
+w1 is mapped to w1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to e1
+e2 is mapped to e7
+e3 is mapped to e6
+e4 is mapped to e2
+e5 is mapped to e3
+e6 is mapped to e5
+e7 is mapped to e4
+f1 is mapped to f3
+f2 is mapped to f1
+f3 is mapped to f2
+f4 is mapped to f5
+f5 is mapped to f6
+f6 is mapped to f4
+f7 is mapped to f7
+g1 is mapped to g3
+g2 is mapped to g1
+g3 is mapped to g2
+g4 is mapped to g5
+g5 is mapped to g6
+g6 is mapped to g4
+g7 is mapped to g7
+
+Action of automorphism 2 on edges:
+e1 is mapped to e6
+e2 is mapped to e4
+e3 is mapped to e2
+e4 is mapped to e1
+e5 is mapped to e7
+e6 is mapped to e5
+e7 is mapped to e3
+f1 is mapped to f4
+f2 is mapped to f3
+f3 is mapped to f7
+f4 is mapped to f2
+f5 is mapped to f6
+f6 is mapped to f1
+f7 is mapped to f5
+g1 is mapped to g4
+g2 is mapped to g3
+g3 is mapped to g7
+g4 is mapped to g2
+g5 is mapped to g6
+g6 is mapped to g1
+g7 is mapped to g5
+
+-----------------------------
+
+complex 4:
+We now describe extensions to type rotating lattices:
+
+There is an extension isomorphic to the triangle presentation B3 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to v1
+v1 is mapped to w1
+w1 is mapped to u1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to f4
+e2 is mapped to f1
+e3 is mapped to f5
+e4 is mapped to f2
+e5 is mapped to f6
+e6 is mapped to f3
+e7 is mapped to f7
+f1 is mapped to g1
+f2 is mapped to g2
+f3 is mapped to g3
+f4 is mapped to g5
+f5 is mapped to g4
+f6 is mapped to g7
+f7 is mapped to g6
+g1 is mapped to e2
+g2 is mapped to e4
+g3 is mapped to e6
+g4 is mapped to e3
+g5 is mapped to e1
+g6 is mapped to e7
+g7 is mapped to e5
+
+There is an extension isomorphic to the triangle presentation B2 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to v1
+v1 is mapped to w1
+w1 is mapped to u1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to f4
+e2 is mapped to f2
+e3 is mapped to f6
+e4 is mapped to f3
+e5 is mapped to f7
+e6 is mapped to f1
+e7 is mapped to f5
+f1 is mapped to g2
+f2 is mapped to g3
+f3 is mapped to g1
+f4 is mapped to g5
+f5 is mapped to g7
+f6 is mapped to g6
+f7 is mapped to g4
+g1 is mapped to e4
+g2 is mapped to e6
+g3 is mapped to e2
+g4 is mapped to e5
+g5 is mapped to e1
+g6 is mapped to e3
+g7 is mapped to e7
+
+There is an extension isomorphic to the triangle presentation B1 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to w1
+v1 is mapped to u1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to g5
+e2 is mapped to g2
+e3 is mapped to g7
+e4 is mapped to g3
+e5 is mapped to g6
+e6 is mapped to g1
+e7 is mapped to g4
+f1 is mapped to e4
+f2 is mapped to e6
+f3 is mapped to e2
+f4 is mapped to e1
+f5 is mapped to e5
+f6 is mapped to e7
+f7 is mapped to e3
+g1 is mapped to f2
+g2 is mapped to f3
+g3 is mapped to f1
+g4 is mapped to f6
+g5 is mapped to f4
+g6 is mapped to f5
+g7 is mapped to f7
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 5:
+We now describe extensions to type rotating lattices:
+
+There is an extension isomorphic to the triangle presentation C1 .
+We describe the action on the given automorphism group
+on the simplices of the Delta complex.
+
+We have 1 automorphisms.
+Automorphism 1 has order 3.
+
+We describe the action on vertices:
+Action of automorphism 1 on vertices:
+u1 is mapped to v1
+v1 is mapped to w1
+w1 is mapped to u1
+
+We describe the action on edges:
+Action of automorphism 1 on edges:
+e1 is mapped to f4
+e2 is mapped to f6
+e3 is mapped to f2
+e4 is mapped to f3
+e5 is mapped to f7
+e6 is mapped to f5
+e7 is mapped to f1
+f1 is mapped to g7
+f2 is mapped to g5
+f3 is mapped to g2
+f4 is mapped to g6
+f5 is mapped to g1
+f6 is mapped to g3
+f7 is mapped to g4
+g1 is mapped to e6
+g2 is mapped to e4
+g3 is mapped to e2
+g4 is mapped to e5
+g5 is mapped to e3
+g6 is mapped to e1
+g7 is mapped to e7
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 6:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 7:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 8:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 9:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 10:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 11:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 12:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+complex 13:
+We now describe extensions to type rotating lattices:
+
+none 
+
+We now describe Singer extensions to panel-regular lattices:
+
+none 
+
+
+We now describe chamber-regular extensions:
+
+none 
+
+-----------------------------
+
+
+
+----------------------------------------
+
+Verifying (5):
+
+i=1:
+The index of the second derived subgroup is 14336
+
+i=2:
+The index of the second derived subgroup is 441
+
+i=3:
+The index of the second derived subgroup is 448
+
+i=4:
+The index of the second derived subgroup is 8
+
+i=5:
+The index of the second derived subgroup is 16
+
+i=6:
+The index of the second derived subgroup is 1
+
+i=7:
+The maximal solvable quotient is: C6
+
+i=8:
+We simplified the presentation, we now have 3 generators.
+
+Current time:  9-Jun-2026,  8:00:45.000 UTC.
+There is no epimorphism to A5 of Size 60 at position 1
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to PSL(3,2) of Size 168 at position 2
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to A6 of Size 360 at position 3
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to PSL(2,8) of Size 504 at position 4
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There actually is an epimorphism to PSL(2,11) of Size 660 at position 5
+
+i=9:
+We simplified the presentation, we now have 2 generators.
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There actually is an epimorphism to A5 of Size 60 at position 1
+
+i=10:
+We simplified the presentation, we now have 2 generators.
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to A5 of Size 60 at position 1
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to PSL(3,2) of Size 168 at position 2
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to A6 of Size 360 at position 3
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to PSL(2,8) of Size 504 at position 4
+
+Current time:  9-Jun-2026,  8:00:46.000 UTC.
+There is no epimorphism to PSL(2,11) of Size 660 at position 5
+
+Current time:  9-Jun-2026,  8:00:47.000 UTC.
+There is no epimorphism to PSL(2,13) of Size 1092 at position 6
+
+Current time:  9-Jun-2026,  8:00:47.000 UTC.
+There is no epimorphism to PSL(2,17) of Size 2448 at position 7
+
+Current time:  9-Jun-2026,  8:00:47.000 UTC.
+There is no epimorphism to A7 of Size 2520 at position 8
+
+Current time:  9-Jun-2026,  8:00:47.000 UTC.
+There is no epimorphism to PSL(2,19) of Size 3420 at position 9
+
+Current time:  9-Jun-2026,  8:00:47.000 UTC.
+There is no epimorphism to PSL(2,16) of Size 4080 at position 10
+
+Current time:  9-Jun-2026,  8:00:47.000 UTC.
+There is no epimorphism to PSL(3,3) of Size 5616 at position 11
+
+Current time:  9-Jun-2026,  8:00:47.000 UTC.
+There is no epimorphism to PSU(3,3) of Size 6048 at position 12
+
+Current time:  9-Jun-2026,  8:00:48.000 UTC.
+There is no epimorphism to PSL(2,23) of Size 6072 at position 13
+
+Current time:  9-Jun-2026,  8:00:48.000 UTC.
+There is no epimorphism to PSL(2,25) of Size 7800 at position 14
+
+Current time:  9-Jun-2026,  8:00:48.000 UTC.
+There is no epimorphism to M11 of Size 7920 at position 15
+
+Current time:  9-Jun-2026,  8:00:48.000 UTC.
+There is no epimorphism to PSL(2,27) of Size 9828 at position 16
+
+Current time:  9-Jun-2026,  8:00:49.000 UTC.
+There is no epimorphism to PSL(2,29) of Size 12180 at position 17
+
+Current time:  9-Jun-2026,  8:00:49.000 UTC.
+There is no epimorphism to PSL(2,31) of Size 14880 at position 18
+
+Current time:  9-Jun-2026,  8:00:49.000 UTC.
+There is no epimorphism to A8 of Size 20160 at position 19
+
+Current time:  9-Jun-2026,  8:00:50.000 UTC.
+There is no epimorphism to PSL(3,4) of Size 20160 at position 20
+
+Current time:  9-Jun-2026,  8:00:51.000 UTC.
+There is no epimorphism to PSL(2,37) of Size 25308 at position 21
+
+Current time:  9-Jun-2026,  8:00:52.000 UTC.
+There is no epimorphism to O(5,3) of Size 25920 at position 22
+
+Current time:  9-Jun-2026,  8:00:52.000 UTC.
+There is no epimorphism to Sz(8) of Size 29120 at position 23
+
+Current time:  9-Jun-2026,  8:00:54.000 UTC.
+There is no epimorphism to PSL(2,32) of Size 32736 at position 24
+
+Current time:  9-Jun-2026,  8:00:55.000 UTC.
+There is no epimorphism to PSL(2,41) of Size 34440 at position 25
+
+Current time:  9-Jun-2026,  8:00:57.000 UTC.
+There is no epimorphism to PSL(2,43) of Size 39732 at position 26
+
+Current time:  9-Jun-2026,  8:00:59.000 UTC.
+There is no epimorphism to PSL(2,47) of Size 51888 at position 27
+
+Current time:  9-Jun-2026,  8:01:01.000 UTC.
+There is no epimorphism to PSL(2,49) of Size 58800 at position 28
+
+Current time:  9-Jun-2026,  8:01:04.000 UTC.
+There is no epimorphism to PSU(3,4) of Size 62400 at position 29
+
+Current time:  9-Jun-2026,  8:01:08.000 UTC.
+There is no epimorphism to PSL(2,53) of Size 74412 at position 30
+
+Current time:  9-Jun-2026,  8:01:10.000 UTC.
+There is no epimorphism to M12 of Size 95040 at position 31
+
+Current time:  9-Jun-2026,  8:01:16.000 UTC.
+There is no epimorphism to PSL(2,59) of Size 102660 at position 32
+
+Current time:  9-Jun-2026,  8:01:23.000 UTC.
+There is no epimorphism to PSL(2,61) of Size 113460 at position 33
+
+Current time:  9-Jun-2026,  8:01:30.000 UTC.
+There is no epimorphism to PSU(3,5) of Size 126000 at position 34
+
+Current time:  9-Jun-2026,  8:01:40.000 UTC.
+There is no epimorphism to PSL(2,67) of Size 150348 at position 35
+
+Current time:  9-Jun-2026,  8:02:04.000 UTC.
+There is no epimorphism to J1 of Size 175560 at position 36
+
+Current time:  9-Jun-2026,  8:02:18.000 UTC.
+There is no epimorphism to PSL(2,71) of Size 178920 at position 37
+
+Current time:  9-Jun-2026,  8:02:22.000 UTC.
+There is no epimorphism to A9 of Size 181440 at position 38
+
+Current time:  9-Jun-2026,  8:02:37.000 UTC.
+There is no epimorphism to PSL(2,73) of Size 194472 at position 39
+
+Current time:  9-Jun-2026,  8:03:00.000 UTC.
+There is no epimorphism to PSL(2,79) of Size 246480 at position 40
+
+Current time:  9-Jun-2026,  8:03:34.000 UTC.
+There is no epimorphism to PSL(2,64) of Size 262080 at position 41
+
+Current time:  9-Jun-2026,  8:03:59.000 UTC.
+There is no epimorphism to PSL(2,81) of Size 265680 at position 42
+
+Current time:  9-Jun-2026,  8:04:28.000 UTC.
+There is no epimorphism to PSL(2,83) of Size 285852 at position 43
+
+Current time:  9-Jun-2026,  8:05:15.000 UTC.
+There is no epimorphism to PSL(2,89) of Size 352440 at position 44
+
+Current time:  9-Jun-2026,  8:05:47.000 UTC.
+There is no epimorphism to PSL(3,5) of Size 372000 at position 45
+
+Current time:  9-Jun-2026,  8:05:58.000 UTC.
+There is no epimorphism to M22 of Size 443520 at position 46
+
+Current time:  9-Jun-2026,  8:07:20.000 UTC.
+There is no epimorphism to PSL(2,97) of Size 456288 at position 47
+
+Current time:  9-Jun-2026,  8:08:54.000 UTC.
+There is no epimorphism to PSL(2,101) of Size 515100 at position 48
+
+Current time:  9-Jun-2026,  8:10:33.000 UTC.
+There is no epimorphism to PSL(2,103) of Size 546312 at position 49
+
+Current time:  9-Jun-2026,  8:11:29.000 UTC.
+There is no epimorphism to HJ of Size 604800 at position 50
+
+Current time:  9-Jun-2026,  8:13:25.000 UTC.
+There is no epimorphism to PSL(2,107) of Size 612468 at position 51
+
+Current time:  9-Jun-2026,  8:16:00.000 UTC.
+There is no epimorphism to PSL(2,109) of Size 647460 at position 52
+
+Current time:  9-Jun-2026,  8:18:35.000 UTC.
+There is no epimorphism to PSL(2,113) of Size 721392 at position 53
+
+Current time:  9-Jun-2026,  8:21:57.000 UTC.
+There is no epimorphism to PSL(2,121) of Size 885720 at position 54
+
+Current time:  9-Jun-2026,  8:26:00.000 UTC.
+There is no epimorphism to PSL(2,125) of Size 976500 at position 55
+
+Current time:  9-Jun-2026,  8:26:39.000 UTC.
+There is no epimorphism to O(5,4) of Size 979200 at position 56
+
+There no simple quotient of size <1000000.
+
+i=11
+The maximal solvable quotient is: C13
+
+i=12
+The maximal solvable quotient is: C2
+
+i=13:
+We simplified the presentation, we now have 2 generators.
+
+Current time:  9-Jun-2026,  8:26:39.000 UTC.
+There is no epimorphism to A5 of Size 60 at position 1
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(3,2) of Size 168 at position 2
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to A6 of Size 360 at position 3
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(2,8) of Size 504 at position 4
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(2,11) of Size 660 at position 5
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(2,13) of Size 1092 at position 6
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(2,17) of Size 2448 at position 7
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to A7 of Size 2520 at position 8
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(2,19) of Size 3420 at position 9
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(2,16) of Size 4080 at position 10
+
+Current time:  9-Jun-2026,  8:26:40.000 UTC.
+There is no epimorphism to PSL(3,3) of Size 5616 at position 11
+
+Current time:  9-Jun-2026,  8:26:41.000 UTC.
+There is no epimorphism to PSU(3,3) of Size 6048 at position 12
+
+Current time:  9-Jun-2026,  8:26:41.000 UTC.
+There is no epimorphism to PSL(2,23) of Size 6072 at position 13
+
+Current time:  9-Jun-2026,  8:26:41.000 UTC.
+There is no epimorphism to PSL(2,25) of Size 7800 at position 14
+
+Current time:  9-Jun-2026,  8:26:41.000 UTC.
+There is no epimorphism to M11 of Size 7920 at position 15
+
+Current time:  9-Jun-2026,  8:26:41.000 UTC.
+There is no epimorphism to PSL(2,27) of Size 9828 at position 16
+
+Current time:  9-Jun-2026,  8:26:42.000 UTC.
+There is no epimorphism to PSL(2,29) of Size 12180 at position 17
+
+Current time:  9-Jun-2026,  8:26:42.000 UTC.
+There is no epimorphism to PSL(2,31) of Size 14880 at position 18
+
+Current time:  9-Jun-2026,  8:26:42.000 UTC.
+There is no epimorphism to A8 of Size 20160 at position 19
+
+Current time:  9-Jun-2026,  8:26:42.000 UTC.
+There is no epimorphism to PSL(3,4) of Size 20160 at position 20
+
+Current time:  9-Jun-2026,  8:26:43.000 UTC.
+There is no epimorphism to PSL(2,37) of Size 25308 at position 21
+
+Current time:  9-Jun-2026,  8:26:44.000 UTC.
+There is no epimorphism to O(5,3) of Size 25920 at position 22
+
+Current time:  9-Jun-2026,  8:26:44.000 UTC.
+There is no epimorphism to Sz(8) of Size 29120 at position 23
+
+Current time:  9-Jun-2026,  8:26:46.000 UTC.
+There is no epimorphism to PSL(2,32) of Size 32736 at position 24
+
+Current time:  9-Jun-2026,  8:26:47.000 UTC.
+There is no epimorphism to PSL(2,41) of Size 34440 at position 25
+
+Current time:  9-Jun-2026,  8:26:49.000 UTC.
+There is no epimorphism to PSL(2,43) of Size 39732 at position 26
+
+Current time:  9-Jun-2026,  8:26:51.000 UTC.
+There is no epimorphism to PSL(2,47) of Size 51888 at position 27
+
+Current time:  9-Jun-2026,  8:26:53.000 UTC.
+There is no epimorphism to PSL(2,49) of Size 58800 at position 28
+
+Current time:  9-Jun-2026,  8:26:55.000 UTC.
+There is no epimorphism to PSU(3,4) of Size 62400 at position 29
+
+Current time:  9-Jun-2026,  8:26:59.000 UTC.
+There is no epimorphism to PSL(2,53) of Size 74412 at position 30
+
+Current time:  9-Jun-2026,  8:27:01.000 UTC.
+There is no epimorphism to M12 of Size 95040 at position 31
+
+Current time:  9-Jun-2026,  8:27:07.000 UTC.
+There is no epimorphism to PSL(2,59) of Size 102660 at position 32
+
+Current time:  9-Jun-2026,  8:27:13.000 UTC.
+There is no epimorphism to PSL(2,61) of Size 113460 at position 33
+
+Current time:  9-Jun-2026,  8:27:18.000 UTC.
+There is no epimorphism to PSU(3,5) of Size 126000 at position 34
+
+Current time:  9-Jun-2026,  8:27:28.000 UTC.
+There is no epimorphism to PSL(2,67) of Size 150348 at position 35
+
+Current time:  9-Jun-2026,  8:27:58.000 UTC.
+There is no epimorphism to J1 of Size 175560 at position 36
+
+Current time:  9-Jun-2026,  8:28:12.000 UTC.
+There is no epimorphism to PSL(2,71) of Size 178920 at position 37
+
+Current time:  9-Jun-2026,  8:28:15.000 UTC.
+There is no epimorphism to A9 of Size 181440 at position 38
+
+Current time:  9-Jun-2026,  8:28:30.000 UTC.
+There is no epimorphism to PSL(2,73) of Size 194472 at position 39
+
+Current time:  9-Jun-2026,  8:28:55.000 UTC.
+There is no epimorphism to PSL(2,79) of Size 246480 at position 40
+
+Current time:  9-Jun-2026,  8:29:29.000 UTC.
+There is no epimorphism to PSL(2,64) of Size 262080 at position 41
+
+Current time:  9-Jun-2026,  8:29:52.000 UTC.
+There is no epimorphism to PSL(2,81) of Size 265680 at position 42
+
+Current time:  9-Jun-2026,  8:30:23.000 UTC.
+There is no epimorphism to PSL(2,83) of Size 285852 at position 43
+
+Current time:  9-Jun-2026,  8:31:08.000 UTC.
+There is no epimorphism to PSL(2,89) of Size 352440 at position 44
+
+Current time:  9-Jun-2026,  8:31:28.000 UTC.
+There is no epimorphism to PSL(3,5) of Size 372000 at position 45
+
+Current time:  9-Jun-2026,  8:31:34.000 UTC.
+There is no epimorphism to M22 of Size 443520 at position 46
+
+Current time:  9-Jun-2026,  8:32:35.000 UTC.
+There is no epimorphism to PSL(2,97) of Size 456288 at position 47
+
+Current time:  9-Jun-2026,  8:33:52.000 UTC.
+There is no epimorphism to PSL(2,101) of Size 515100 at position 48
+
+Current time:  9-Jun-2026,  8:35:16.000 UTC.
+There is no epimorphism to PSL(2,103) of Size 546312 at position 49
+
+Current time:  9-Jun-2026,  8:36:05.000 UTC.
+There is no epimorphism to HJ of Size 604800 at position 50
+
+Current time:  9-Jun-2026,  8:37:51.000 UTC.
+There is no epimorphism to PSL(2,107) of Size 612468 at position 51
+
+Current time:  9-Jun-2026,  8:39:44.000 UTC.
+There is no epimorphism to PSL(2,109) of Size 647460 at position 52
+
+Current time:  9-Jun-2026,  8:42:07.000 UTC.
+There is no epimorphism to PSL(2,113) of Size 721392 at position 53
+
+Current time:  9-Jun-2026,  8:45:30.000 UTC.
+There is no epimorphism to PSL(2,121) of Size 885720 at position 54
+
+Current time:  9-Jun-2026,  8:51:33.000 UTC.
+There is no epimorphism to PSL(2,125) of Size 976500 at position 55
+
+Current time:  9-Jun-2026,  8:52:47.000 UTC.
+There is no epimorphism to O(5,4) of Size 979200 at position 56
+
+There no simple quotient of size <1000000.
+
+
+
+----------------------------------------
+
+Verifying (6):
+
+Omega2 contains Gamma7 as index 21 subgroup.
+
+
+
+----------------------------------------
+
+Verifying (7):
+
+The 2-ball around w is the char 2 ball.
+The 2-ball around u is the char 0 ball.
+The 2-ball around v is the char 2 ball.
+
+The 2-ball around w is the char 2 ball.
+The 2-ball around u is the char 0 ball.
+The 2-ball around v is the char 2 ball.
+
+The 2-ball around w is the char 2 ball.
+The 2-ball around u is the char 0 ball.
+The 2-ball around v is the char 2 ball.
+
+The 2-ball around w is the char 2 ball.
+The 2-ball around u is the char 0 ball.
+The 2-ball around v is the char 2 ball.
+
+The 2-ball around w is the char 0 ball.
+The 2-ball around u is the char 2 ball.
+The 2-ball around v is the char 0 ball.
+
+The 2-ball around w is the char 0 ball.
+The 2-ball around u is the char 2 ball.
+The 2-ball around v is the char 0 ball.
+
+The 2-ball around w is the char 0 ball.
+The 2-ball around u is the char 2 ball.
+The 2-ball around v is the char 0 ball.
+
+
+
+----------------------------------------
+
+Verifying (9):
+
+The representation of Gamma6 to the projective unitary group is well-defined.
+
+
+----------------------------------------
+
+verification finished at  9-Jun-2026,  8:52:54.000 UTC
