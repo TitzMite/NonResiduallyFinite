@@ -1,9 +1,9 @@
 
 #main functions:
-#NormalFormWithDataProvided(descendings, congruents, turns, w)
-#NormalFormInverseWithDataProvided(descendings, congruents, turns, w)
-#NormalFormTrianglesTietze(triangles, tietze)
-#NormalFormInverseTrianglesTietze(triangles, tietze)
+#NormalFormDataProvided(descendings, congruents, turns, w)
+#NormalFormInverseDataProvided(descendings, congruents, turns, w)
+#NormalForm(triangles, tietze)
+#NormalFormInverse(triangles, tietze)
 
 HighestGeneratorFromTriangles := function(triangles)
     return Maximum(List(triangles, t->t[3]));
