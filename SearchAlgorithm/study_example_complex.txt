@@ -1,0 +1,727 @@
+
+we study the complex from "output_search.txt"
+
+example_complex := [
+    [ 3, 5, 1 ], [ 8, 1, 1 ], [ 4, 5, 2 ], [ 6, 2, 2 ], [ 1, 5, 3 ], [ 6, 3, 3 ],
+    [ 2, 5, 4 ], [ 6, 4, 4 ], [ 3, 6, 5 ], [ 5, 1, 5 ], [ 4, 6, 6 ], [ 5, 2, 6 ],
+    [ 1, 6, 7 ], [ 7, 3, 7 ], [ 2, 6, 8 ], [ 5, 4, 8 ], [ 3, 7, 9 ], [ 6, 1, 9 ],
+    [ 1, 7, 10 ], [ 8, 2, 10 ], [ 4, 7, 11 ], [ 8, 3, 11 ], [ 2, 7, 12 ], [ 8, 4, 12 ],
+    [ 2, 8, 13 ], [ 7, 1, 13 ], [ 4, 8, 14 ], [ 7, 2, 14 ], [ 1, 8, 15 ], [ 5, 3, 15 ],
+    [ 3, 8, 16 ], [ 7, 4, 16 ], [ 9, 9, 30 ], [ 9, 10, 11 ], [ 9, 11, 28 ], [ 9, 12, 22 ],
+    [ 10, 9, 16 ], [ 10, 10, 32 ], [ 10, 11, 19 ], [ 10, 12, 18 ], [ 11, 9, 33 ], [ 11, 10, 34 ],
+    [ 11, 11, 38 ], [ 11, 12, 2 ], [ 12, 9, 22 ], [ 12, 10, 18 ], [ 12, 11, 8 ], [ 12, 12, 24 ], 
+    [ 13, 13, 22 ], [ 13, 14, 25 ], [ 13, 15, 33 ], [ 13, 16, 7 ], [ 14, 13, 25 ], [ 14, 14, 26 ],
+    [ 14, 15, 6 ], [ 14, 16, 20 ], [ 15, 13, 28 ], [ 15, 14, 4 ], [ 15, 15, 40 ], [ 15, 16, 35 ],
+    [ 16, 13, 9 ], [ 16, 14, 20 ], [ 16, 15, 31 ], [ 16, 16, 21 ], [ 17, 17, 23 ], [ 17, 18, 1 ],
+    [ 17, 19, 36 ], [ 17, 20, 25 ], [ 18, 17, 15 ], [ 18, 18, 27 ], [ 18, 19, 34 ], [ 18, 20, 32 ],
+    [ 19, 17, 29 ], [ 19, 18, 19 ], [ 19, 19, 40 ], [ 19, 20, 6 ], [ 20, 17, 25 ], [ 20, 18, 32 ],
+    [ 20, 19, 4 ], [ 20, 20, 39 ], [ 21, 21, 39 ], [ 21, 22, 14 ], [ 21, 23, 24 ], [ 21, 24, 21 ],
+    [ 22, 21, 12 ], [ 22, 22, 21 ], [ 22, 23, 19 ], [ 22, 24, 33 ], [ 23, 21, 24 ], [ 23, 22, 34 ],
+    [ 23, 23, 40 ], [ 23, 24, 1 ], [ 24, 21, 21 ], [ 24, 22, 28 ], [ 24, 23, 15 ], [ 24, 24, 23 ],
+    [ 25, 25, 20 ], [ 25, 26, 10 ], [ 25, 27, 35 ],[ 25, 28, 18 ], [ 26, 25, 13 ], [ 26, 26, 37 ],
+    [ 26, 27, 29 ], [ 26, 28, 23 ], [ 27, 25, 31 ], [ 27, 26, 36 ], [ 27, 27, 38 ], [ 27, 28, 8 ],
+    [ 28, 25, 18 ], [ 28, 26, 23 ], [ 28, 27, 2 ], [ 28, 28, 17 ], [ 29, 29, 37 ], [ 29, 30, 5 ],
+    [ 29, 31, 35 ], [ 29, 32, 33 ], [ 30, 29, 3 ], [ 30, 30, 24 ], [ 30, 31, 37 ], [ 30, 32, 26 ],
+    [ 31, 29, 31 ], [ 31, 30, 37 ], [ 31, 31, 32 ], [ 31, 32, 11 ], [ 32, 29, 28 ], [ 32, 30, 26 ],
+    [ 32, 31, 16 ], [ 32, 32, 38 ], [ 33, 33, 20 ], [ 33, 34, 13 ], [ 33, 35, 30 ], [ 33, 36, 34 ],
+    [ 34, 33, 10 ], [ 34, 34, 38 ], [ 34, 35, 39 ], [ 34, 36, 29 ], [ 35, 33, 30 ], [ 35, 34, 39 ],
+    [ 35, 35, 17 ], [ 35, 36, 5 ], [ 36, 33, 19 ], [ 36, 34, 36 ], [ 36, 35, 3 ], [ 36, 36, 30 ],
+    [ 37, 37, 27 ], [ 37, 38, 14 ], [ 37, 39, 35 ], [ 37, 40, 36 ], [ 38, 37, 12 ], [ 38, 38, 26 ],
+    [ 38, 39, 17 ], [ 38, 40, 27 ], [ 39, 37, 31 ], [ 39, 38, 17 ], [ 39, 39, 40 ], [ 39, 40, 7 ],
+    [ 40, 37, 29 ], [ 40, 38, 27 ], [ 40, 39, 9 ], [ 40, 40, 22 ] ];
+
+-------------------------------------------------------
+
+gap> CheckLinks(example_complex);
+Link number 1 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 2 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 3 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 4 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 5 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 6 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 7 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 8 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 9 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 10 in the local geometry (1,2) has
+order 8, girth 4 and diameter 2.
+
+Link number 1 in the local geometry (2,3) has
+order 80, girth 8 and diameter 4.
+
+Link number 1 in the local geometry (3,1) has
+order 80, girth 8 and diameter 4.
+
+
+-------------------------------------------------------
+
+gap> DescriptionTriangleComplex(example_complex);
+We actually describe the corresponding delta complex.
+We did not orient the delta complex.
+
+We have 12 vertices:
+u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, v1, w1.
+
+We have 120 edges:
+e1, ..., e40,
+f1, ..., f40,
+g1, ..., g40.
+
+We have 160 triangles:
+t1, ..., t160.
+
+The boundary of t1 is e3, f5, g1.
+The boundary of t2 is e8, f1, g1.
+The boundary of t3 is e4, f5, g2.
+The boundary of t4 is e6, f2, g2.
+The boundary of t5 is e1, f5, g3.
+The boundary of t6 is e6, f3, g3.
+The boundary of t7 is e2, f5, g4.
+The boundary of t8 is e6, f4, g4.
+The boundary of t9 is e3, f6, g5.
+The boundary of t10 is e5, f1, g5.
+The boundary of t11 is e4, f6, g6.
+The boundary of t12 is e5, f2, g6.
+The boundary of t13 is e1, f6, g7.
+The boundary of t14 is e7, f3, g7.
+The boundary of t15 is e2, f6, g8.
+The boundary of t16 is e5, f4, g8.
+The boundary of t17 is e3, f7, g9.
+The boundary of t18 is e6, f1, g9.
+The boundary of t19 is e1, f7, g10.
+The boundary of t20 is e8, f2, g10.
+The boundary of t21 is e4, f7, g11.
+The boundary of t22 is e8, f3, g11.
+The boundary of t23 is e2, f7, g12.
+The boundary of t24 is e8, f4, g12.
+The boundary of t25 is e2, f8, g13.
+The boundary of t26 is e7, f1, g13.
+The boundary of t27 is e4, f8, g14.
+The boundary of t28 is e7, f2, g14.
+The boundary of t29 is e1, f8, g15.
+The boundary of t30 is e5, f3, g15.
+The boundary of t31 is e3, f8, g16.
+The boundary of t32 is e7, f4, g16.
+The boundary of t33 is e9, f9, g30.
+The boundary of t34 is e9, f10, g11.
+The boundary of t35 is e9, f11, g28.
+The boundary of t36 is e9, f12, g22.
+The boundary of t37 is e10, f9, g16.
+The boundary of t38 is e10, f10, g32.
+The boundary of t39 is e10, f11, g19.
+The boundary of t40 is e10, f12, g18.
+The boundary of t41 is e11, f9, g33.
+The boundary of t42 is e11, f10, g34.
+The boundary of t43 is e11, f11, g38.
+The boundary of t44 is e11, f12, g2.
+The boundary of t45 is e12, f9, g22.
+The boundary of t46 is e12, f10, g18.
+The boundary of t47 is e12, f11, g8.
+The boundary of t48 is e12, f12, g24.
+The boundary of t49 is e13, f13, g22.
+The boundary of t50 is e13, f14, g25.
+The boundary of t51 is e13, f15, g33.
+The boundary of t52 is e13, f16, g7.
+The boundary of t53 is e14, f13, g25.
+The boundary of t54 is e14, f14, g26.
+The boundary of t55 is e14, f15, g6.
+The boundary of t56 is e14, f16, g20.
+The boundary of t57 is e15, f13, g28.
+The boundary of t58 is e15, f14, g4.
+The boundary of t59 is e15, f15, g40.
+The boundary of t60 is e15, f16, g35.
+The boundary of t61 is e16, f13, g9.
+The boundary of t62 is e16, f14, g20.
+The boundary of t63 is e16, f15, g31.
+The boundary of t64 is e16, f16, g21.
+The boundary of t65 is e17, f17, g23.
+The boundary of t66 is e17, f18, g1.
+The boundary of t67 is e17, f19, g36.
+The boundary of t68 is e17, f20, g25.
+The boundary of t69 is e18, f17, g15.
+The boundary of t70 is e18, f18, g27.
+The boundary of t71 is e18, f19, g34.
+The boundary of t72 is e18, f20, g32.
+The boundary of t73 is e19, f17, g29.
+The boundary of t74 is e19, f18, g19.
+The boundary of t75 is e19, f19, g40.
+The boundary of t76 is e19, f20, g6.
+The boundary of t77 is e20, f17, g25.
+The boundary of t78 is e20, f18, g32.
+The boundary of t79 is e20, f19, g4.
+The boundary of t80 is e20, f20, g39.
+The boundary of t81 is e21, f21, g39.
+The boundary of t82 is e21, f22, g14.
+The boundary of t83 is e21, f23, g24.
+The boundary of t84 is e21, f24, g21.
+The boundary of t85 is e22, f21, g12.
+The boundary of t86 is e22, f22, g21.
+The boundary of t87 is e22, f23, g19.
+The boundary of t88 is e22, f24, g33.
+The boundary of t89 is e23, f21, g24.
+The boundary of t90 is e23, f22, g34.
+The boundary of t91 is e23, f23, g40.
+The boundary of t92 is e23, f24, g1.
+The boundary of t93 is e24, f21, g21.
+The boundary of t94 is e24, f22, g28.
+The boundary of t95 is e24, f23, g15.
+The boundary of t96 is e24, f24, g23.
+The boundary of t97 is e25, f25, g20.
+The boundary of t98 is e25, f26, g10.
+The boundary of t99 is e25, f27, g35.
+The boundary of t100 is e25, f28, g18.
+The boundary of t101 is e26, f25, g13.
+The boundary of t102 is e26, f26, g37.
+The boundary of t103 is e26, f27, g29.
+The boundary of t104 is e26, f28, g23.
+The boundary of t105 is e27, f25, g31.
+The boundary of t106 is e27, f26, g36.
+The boundary of t107 is e27, f27, g38.
+The boundary of t108 is e27, f28, g8.
+The boundary of t109 is e28, f25, g18.
+The boundary of t110 is e28, f26, g23.
+The boundary of t111 is e28, f27, g2.
+The boundary of t112 is e28, f28, g17.
+The boundary of t113 is e29, f29, g37.
+The boundary of t114 is e29, f30, g5.
+The boundary of t115 is e29, f31, g35.
+The boundary of t116 is e29, f32, g33.
+The boundary of t117 is e30, f29, g3.
+The boundary of t118 is e30, f30, g24.
+The boundary of t119 is e30, f31, g37.
+The boundary of t120 is e30, f32, g26.
+The boundary of t121 is e31, f29, g31.
+The boundary of t122 is e31, f30, g37.
+The boundary of t123 is e31, f31, g32.
+The boundary of t124 is e31, f32, g11.
+The boundary of t125 is e32, f29, g28.
+The boundary of t126 is e32, f30, g26.
+The boundary of t127 is e32, f31, g16.
+The boundary of t128 is e32, f32, g38.
+The boundary of t129 is e33, f33, g20.
+The boundary of t130 is e33, f34, g13.
+The boundary of t131 is e33, f35, g30.
+The boundary of t132 is e33, f36, g34.
+The boundary of t133 is e34, f33, g10.
+The boundary of t134 is e34, f34, g38.
+The boundary of t135 is e34, f35, g39.
+The boundary of t136 is e34, f36, g29.
+The boundary of t137 is e35, f33, g30.
+The boundary of t138 is e35, f34, g39.
+The boundary of t139 is e35, f35, g17.
+The boundary of t140 is e35, f36, g5.
+The boundary of t141 is e36, f33, g19.
+The boundary of t142 is e36, f34, g36.
+The boundary of t143 is e36, f35, g3.
+The boundary of t144 is e36, f36, g30.
+The boundary of t145 is e37, f37, g27.
+The boundary of t146 is e37, f38, g14.
+The boundary of t147 is e37, f39, g35.
+The boundary of t148 is e37, f40, g36.
+The boundary of t149 is e38, f37, g12.
+The boundary of t150 is e38, f38, g26.
+The boundary of t151 is e38, f39, g17.
+The boundary of t152 is e38, f40, g27.
+The boundary of t153 is e39, f37, g31.
+The boundary of t154 is e39, f38, g17.
+The boundary of t155 is e39, f39, g40.
+The boundary of t156 is e39, f40, g7.
+The boundary of t157 is e40, f37, g29.
+The boundary of t158 is e40, f38, g27.
+The boundary of t159 is e40, f39, g9.
+The boundary of t160 is e40, f40, g22.
+
+The boundary of e1 is u1, w1.
+The boundary of e2 is u1, w1.
+The boundary of e3 is u1, w1.
+The boundary of e4 is u1, w1.
+The boundary of e5 is u2, w1.
+The boundary of e6 is u2, w1.
+The boundary of e7 is u2, w1.
+The boundary of e8 is u2, w1.
+The boundary of e9 is u3, w1.
+The boundary of e10 is u3, w1.
+The boundary of e11 is u3, w1.
+The boundary of e12 is u3, w1.
+The boundary of e13 is u4, w1.
+The boundary of e14 is u4, w1.
+The boundary of e15 is u4, w1.
+The boundary of e16 is u4, w1.
+The boundary of e17 is u5, w1.
+The boundary of e18 is u5, w1.
+The boundary of e19 is u5, w1.
+The boundary of e20 is u5, w1.
+The boundary of e21 is u6, w1.
+The boundary of e22 is u6, w1.
+The boundary of e23 is u6, w1.
+The boundary of e24 is u6, w1.
+The boundary of e25 is u7, w1.
+The boundary of e26 is u7, w1.
+The boundary of e27 is u7, w1.
+The boundary of e28 is u7, w1.
+The boundary of e29 is u8, w1.
+The boundary of e30 is u8, w1.
+The boundary of e31 is u8, w1.
+The boundary of e32 is u8, w1.
+The boundary of e33 is u9, w1.
+The boundary of e34 is u9, w1.
+The boundary of e35 is u9, w1.
+The boundary of e36 is u9, w1.
+The boundary of e37 is u10, w1.
+The boundary of e38 is u10, w1.
+The boundary of e39 is u10, w1.
+The boundary of e40 is u10, w1.
+The boundary of f1 is u2, v1.
+The boundary of f2 is u2, v1.
+The boundary of f3 is u2, v1.
+The boundary of f4 is u2, v1.
+The boundary of f5 is u1, v1.
+The boundary of f6 is u1, v1.
+The boundary of f7 is u1, v1.
+The boundary of f8 is u1, v1.
+The boundary of f9 is u3, v1.
+The boundary of f10 is u3, v1.
+The boundary of f11 is u3, v1.
+The boundary of f12 is u3, v1.
+The boundary of f13 is u4, v1.
+The boundary of f14 is u4, v1.
+The boundary of f15 is u4, v1.
+The boundary of f16 is u4, v1.
+The boundary of f17 is u5, v1.
+The boundary of f18 is u5, v1.
+The boundary of f19 is u5, v1.
+The boundary of f20 is u5, v1.
+The boundary of f21 is u6, v1.
+The boundary of f22 is u6, v1.
+The boundary of f23 is u6, v1.
+The boundary of f24 is u6, v1.
+The boundary of f25 is u7, v1.
+The boundary of f26 is u7, v1.
+The boundary of f27 is u7, v1.
+The boundary of f28 is u7, v1.
+The boundary of f29 is u8, v1.
+The boundary of f30 is u8, v1.
+The boundary of f31 is u8, v1.
+The boundary of f32 is u8, v1.
+The boundary of f33 is u9, v1.
+The boundary of f34 is u9, v1.
+The boundary of f35 is u9, v1.
+The boundary of f36 is u9, v1.
+The boundary of f37 is u10, v1.
+The boundary of f38 is u10, v1.
+The boundary of f39 is u10, v1.
+The boundary of f40 is u10, v1.
+The boundary of g1 is v1, w1.
+The boundary of g2 is v1, w1.
+The boundary of g3 is v1, w1.
+The boundary of g4 is v1, w1.
+The boundary of g5 is v1, w1.
+The boundary of g6 is v1, w1.
+The boundary of g7 is v1, w1.
+The boundary of g8 is v1, w1.
+The boundary of g9 is v1, w1.
+The boundary of g10 is v1, w1.
+The boundary of g11 is v1, w1.
+The boundary of g12 is v1, w1.
+The boundary of g13 is v1, w1.
+The boundary of g14 is v1, w1.
+The boundary of g15 is v1, w1.
+The boundary of g16 is v1, w1.
+The boundary of g17 is v1, w1.
+The boundary of g18 is v1, w1.
+The boundary of g19 is v1, w1.
+The boundary of g20 is v1, w1.
+The boundary of g21 is v1, w1.
+The boundary of g22 is v1, w1.
+The boundary of g23 is v1, w1.
+The boundary of g24 is v1, w1.
+The boundary of g25 is v1, w1.
+The boundary of g26 is v1, w1.
+The boundary of g27 is v1, w1.
+The boundary of g28 is v1, w1.
+The boundary of g29 is v1, w1.
+The boundary of g30 is v1, w1.
+The boundary of g31 is v1, w1.
+The boundary of g32 is v1, w1.
+The boundary of g33 is v1, w1.
+The boundary of g34 is v1, w1.
+The boundary of g35 is v1, w1.
+The boundary of g36 is v1, w1.
+The boundary of g37 is v1, w1.
+The boundary of g38 is v1, w1.
+The boundary of g39 is v1, w1.
+The boundary of g40 is v1, w1.
+
+
+-------------------------------------------------------
+
+gap> DescriptionAutomorphismGroupTriangleComplex(example_complex);
+We describe the action on the automorphism group
+on the simplices of the Delta complex.
+
+The automorphism group is C4 x C2.
+We have 2 generators.
+Generator 1 has order 4.
+Generator 2 has order 2.
+
+We describe the action on vertices:
+Action of generator 1 on vertices:
+u1 is mapped to u2
+u2 is mapped to u1
+u3 is mapped to u5
+u4 is mapped to u3
+u5 is mapped to u7
+u6 is mapped to u9
+u7 is mapped to u4
+u8 is mapped to u6
+u9 is mapped to u10
+u10 is mapped to u8
+v1 is mapped to v1
+w1 is mapped to w1
+
+Action of generator 2 on vertices:
+u1 is mapped to u2
+u2 is mapped to u1
+u3 is mapped to u3
+u4 is mapped to u4
+u5 is mapped to u5
+u6 is mapped to u6
+u7 is mapped to u7
+u8 is mapped to u8
+u9 is mapped to u9
+u10 is mapped to u10
+v1 is mapped to w1
+w1 is mapped to v1
+
+We describe the action on edges:
+Action of generator 1 on edges:
+e1 is mapped to e7
+e2 is mapped to e6
+e3 is mapped to e8
+e4 is mapped to e5
+e5 is mapped to e2
+e6 is mapped to e4
+e7 is mapped to e3
+e8 is mapped to e1
+e9 is mapped to e18
+e10 is mapped to e17
+e11 is mapped to e19
+e12 is mapped to e20
+e13 is mapped to e10
+e14 is mapped to e12
+e15 is mapped to e11
+e16 is mapped to e9
+e17 is mapped to e25
+e18 is mapped to e26
+e19 is mapped to e27
+e20 is mapped to e28
+e21 is mapped to e35
+e22 is mapped to e36
+e23 is mapped to e34
+e24 is mapped to e33
+e25 is mapped to e13
+e26 is mapped to e16
+e27 is mapped to e15
+e28 is mapped to e14
+e29 is mapped to e22
+e30 is mapped to e21
+e31 is mapped to e24
+e32 is mapped to e23
+e33 is mapped to e40
+e34 is mapped to e39
+e35 is mapped to e38
+e36 is mapped to e37
+e37 is mapped to e29
+e38 is mapped to e30
+e39 is mapped to e32
+e40 is mapped to e31
+f1 is mapped to f7
+f2 is mapped to f6
+f3 is mapped to f8
+f4 is mapped to f5
+f5 is mapped to f2
+f6 is mapped to f4
+f7 is mapped to f3
+f8 is mapped to f1
+f9 is mapped to f18
+f10 is mapped to f17
+f11 is mapped to f19
+f12 is mapped to f20
+f13 is mapped to f10
+f14 is mapped to f12
+f15 is mapped to f11
+f16 is mapped to f9
+f17 is mapped to f25
+f18 is mapped to f26
+f19 is mapped to f27
+f20 is mapped to f28
+f21 is mapped to f35
+f22 is mapped to f36
+f23 is mapped to f34
+f24 is mapped to f33
+f25 is mapped to f13
+f26 is mapped to f16
+f27 is mapped to f15
+f28 is mapped to f14
+f29 is mapped to f22
+f30 is mapped to f21
+f31 is mapped to f24
+f32 is mapped to f23
+f33 is mapped to f40
+f34 is mapped to f39
+f35 is mapped to f38
+f36 is mapped to f37
+f37 is mapped to f29
+f38 is mapped to f30
+f39 is mapped to f32
+f40 is mapped to f31
+g1 is mapped to g10
+g2 is mapped to g6
+g3 is mapped to g14
+g4 is mapped to g2
+g5 is mapped to g12
+g6 is mapped to g8
+g7 is mapped to g16
+g8 is mapped to g4
+g9 is mapped to g11
+g10 is mapped to g7
+g11 is mapped to g15
+g12 is mapped to g3
+g13 is mapped to g9
+g14 is mapped to g5
+g15 is mapped to g13
+g16 is mapped to g1
+g17 is mapped to g26
+g18 is mapped to g25
+g19 is mapped to g36
+g20 is mapped to g22
+g21 is mapped to g30
+g22 is mapped to g32
+g23 is mapped to g20
+g24 is mapped to g39
+g25 is mapped to g18
+g26 is mapped to g24
+g27 is mapped to g37
+g28 is mapped to g34
+g29 is mapped to g31
+g30 is mapped to g27
+g31 is mapped to g28
+g32 is mapped to g23
+g33 is mapped to g19
+g34 is mapped to g29
+g35 is mapped to g33
+g36 is mapped to g35
+g37 is mapped to g21
+g38 is mapped to g40
+g39 is mapped to g17
+g40 is mapped to g38
+
+Action of generator 2 on edges:
+e1 is mapped to f1
+e2 is mapped to f2
+e3 is mapped to f3
+e4 is mapped to f4
+e5 is mapped to f5
+e6 is mapped to f6
+e7 is mapped to f7
+e8 is mapped to f8
+e9 is mapped to f9
+e10 is mapped to f10
+e11 is mapped to f11
+e12 is mapped to f12
+e13 is mapped to f13
+e14 is mapped to f14
+e15 is mapped to f15
+e16 is mapped to f16
+e17 is mapped to f17
+e18 is mapped to f18
+e19 is mapped to f19
+e20 is mapped to f20
+e21 is mapped to f21
+e22 is mapped to f22
+e23 is mapped to f23
+e24 is mapped to f24
+e25 is mapped to f25
+e26 is mapped to f26
+e27 is mapped to f27
+e28 is mapped to f28
+e29 is mapped to f29
+e30 is mapped to f30
+e31 is mapped to f31
+e32 is mapped to f32
+e33 is mapped to f33
+e34 is mapped to f34
+e35 is mapped to f35
+e36 is mapped to f36
+e37 is mapped to f37
+e38 is mapped to f38
+e39 is mapped to f39
+e40 is mapped to f40
+f1 is mapped to e1
+f2 is mapped to e2
+f3 is mapped to e3
+f4 is mapped to e4
+f5 is mapped to e5
+f6 is mapped to e6
+f7 is mapped to e7
+f8 is mapped to e8
+f9 is mapped to e9
+f10 is mapped to e10
+f11 is mapped to e11
+f12 is mapped to e12
+f13 is mapped to e13
+f14 is mapped to e14
+f15 is mapped to e15
+f16 is mapped to e16
+f17 is mapped to e17
+f18 is mapped to e18
+f19 is mapped to e19
+f20 is mapped to e20
+f21 is mapped to e21
+f22 is mapped to e22
+f23 is mapped to e23
+f24 is mapped to e24
+f25 is mapped to e25
+f26 is mapped to e26
+f27 is mapped to e27
+f28 is mapped to e28
+f29 is mapped to e29
+f30 is mapped to e30
+f31 is mapped to e31
+f32 is mapped to e32
+f33 is mapped to e33
+f34 is mapped to e34
+f35 is mapped to e35
+f36 is mapped to e36
+f37 is mapped to e37
+f38 is mapped to e38
+f39 is mapped to e39
+f40 is mapped to e40
+g1 is mapped to g15
+g2 is mapped to g8
+g3 is mapped to g5
+g4 is mapped to g6
+g5 is mapped to g3
+g6 is mapped to g4
+g7 is mapped to g9
+g8 is mapped to g2
+g9 is mapped to g7
+g10 is mapped to g13
+g11 is mapped to g16
+g12 is mapped to g14
+g13 is mapped to g10
+g14 is mapped to g12
+g15 is mapped to g1
+g16 is mapped to g11
+g17 is mapped to g17
+g18 is mapped to g18
+g19 is mapped to g34
+g20 is mapped to g20
+g21 is mapped to g21
+g22 is mapped to g22
+g23 is mapped to g23
+g24 is mapped to g24
+g25 is mapped to g25
+g26 is mapped to g26
+g27 is mapped to g27
+g28 is mapped to g33
+g29 is mapped to g36
+g30 is mapped to g30
+g31 is mapped to g35
+g32 is mapped to g32
+g33 is mapped to g28
+g34 is mapped to g19
+g35 is mapped to g31
+g36 is mapped to g29
+g37 is mapped to g37
+g38 is mapped to g38
+g39 is mapped to g39
+g40 is mapped to g40
+
+-------------------------------------------------------
+
+gap> G := PresentationExtension(example_complex);
+#I  there are 40 generators and 219 relators of total length 820
+#I  there are 40 generators and 174 relators of total length 640
+#I  there are 40 generators and 157 relators of total length 570
+#I  there are 40 generators and 146 relators of total length 516
+#I  there are 40 generators and 133 relators of total length 472
+#I  there are 40 generators and 124 relators of total length 438
+#I  there are 40 generators and 120 relators of total length 424
+#I  there are 40 generators and 116 relators of total length 408
+#I  there are 40 generators and 113 relators of total length 396
+#I  there are 40 generators and 110 relators of total length 384
+#I  there are 40 generators and 107 relators of total length 372
+#I  there are 40 generators and 105 relators of total length 364
+#I  there are 40 generators and 103 relators of total length 356
+#I  there are 40 generators and 102 relators of total length 352
+#I  there are 40 generators and 101 relators of total length 348
+#I  there are 40 generators and 95 relators of total length 324
+#I  there are 40 generators and 93 relators of total length 316
+#I  there are 40 generators and 92 relators of total length 312
+#I  there are 40 generators and 91 relators of total length 308
+#I  there are 40 generators and 90 relators of total length 304
+#I  there are 40 generators and 89 relators of total length 300
+#I  there are 40 generators and 88 relators of total length 296
+#I  there are 40 generators and 87 relators of total length 292
+#I  there are 40 generators and 86 relators of total length 288
+#I  there are 40 generators and 86 relators of total length 288
+<fp group with 40 generators>
+
+gap> RelatorsOfFpGroup(G);
+[ g1*g15, g2*g8, g3*g5, g4*g6, g7*g9, g10*g13, g11*g16, g12*g14, g17^2, g18^2, g19*g34, g20^2, g21^2, 
+  g22^2, g23^2, g24^2, g25^2, g26^2, g27^2, g28*g33, g29*g36, g30^2, g31*g35, g32^2, g37^2, g38^2, 
+  g39^2, g40^2, g1*g3*g6*g8, g1*g7*g12*g6, g1*g13*g6*g3, g1*g16*g7*g10, g1*g19*g28*g23, 
+  g1*g23*g29*g34, g1*g25*g6*g34, g1*g40*g19*g28, g2*g4*g7*g5, g2*g4*g8*g6, g2*g6*g12*g13, 
+  g2*g7*g13*g12, g2*g16*g12*g6, g2*g17*g8*g38, g2*g18*g13*g36, g2*g19*g32*g18, g2*g28*g30*g22, 
+  g2*g38*g19*g18, g3*g6*g12*g16, g3*g24*g37*g35, g3*g26*g38*g33, g3*g30*g29*g39, g3*g34*g30*g17, 
+  g3*g37*g35*g37, g4*g32*g27*g19, g4*g33*g9*g20, g4*g39*g6*g40, g4*g39*g32*g19, g4*g40*g33*g25, 
+  g7*g22*g9*g21, g7*g28*g31*g21, g7*g35*g29*g22, g7*g40*g35*g29, g10*g31*g38*g29, g10*g36*g34*g20, 
+  g11*g32*g35*g28, g11*g33*g19*g32, g11*g35*g37*g28, g12*g17*g35*g27, g12*g21*g14*g39, g12*g26*g14*g27,
+  g12*g26*g27*g36, g12*g28*g23*g21, g12*g34*g24*g39, g17*g26*g17*g40, g18*g22*g33*g19, g18*g23*g36*g35,
+  g19*g29*g39*g30, g19*g30*g34*g20, g20*g21*g20*g26, g20*g31*g38*g35, g21*g28*g23*g33, g21*g35*g40*g31,
+  g22*g24*g22*g30, g23*g25*g39*g25, g26*g33*g31*g37, g29*g37*g36*g38, g29*g38*g36*g30 ]
+
+-------------------------------------------------------
+
+gap> NormalForm(example_complex, [21,1,19,2]);
+[ 9, 3 ]
+
+-------------------------------------------------------
+
+gap> DiscretenessCheckThickness4(example_complex);
+Let pi be the fundamental group of the triangle complex T, you provided.
+We calculated that the index of pi in the full automorphism group
+of the building is at most 8.
+In particular the full automomorphism group is discrete.
+
+If lambda is the extension of pi consisting of deck transformations 
+covering the automorphism group of T, then pi is of index 8 in lambda.
+
+true
+
+-------------------------------------------------------
+
+gap> P := PerfectResiduum(G);
+Group([ g1^-2, g2^-2, g3*g2^-1, g3^-1*g2^-1, g4*g1^-1, g17*g1^-1, g18*g1^-1 ])
+gap> tietzes := List(GeneratorsOfGroup(P), w->TietzeWordAbstractWord(UnderlyingElement(w), FreeGeneratorsOfFpGroup(G)));
+[ [ -1, -1 ], [ -2, -2 ], [ 3, -2 ], [ -3, -2 ], [ 4, -1 ], [ 17, -1 ], [ 18, -1 ] ]
+gap> ConstructRaduGraphCover(example_complex, tietzes);
+*data encoding the cover*
